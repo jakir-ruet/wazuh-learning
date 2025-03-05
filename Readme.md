@@ -27,6 +27,13 @@ I've installed it here as a `Single Node`.
 ```bash
 git clone https://github.com/wazuh/wazuh-docker.git -b v4.11.0
 ```
+```bash
+cd wazuh-docker/single-node/
+docker-compose -f generate-indexer-certs.yml run --rm generator # Lets generate certificate
+docker-compose up # For Foreground
+docker-compose up -d # For Background, I use it.
+```
+
 
 ## With Regards, `Jakir`
 
