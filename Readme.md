@@ -3,7 +3,30 @@
 ### What is Wazuh? 
 Wazuh is an open-source security monitoring platform that provides log analysis, intrusion detection, vulnerability detection, and compliance monitoring. It can monitor your infrastructure for suspicious activity, configuration changes, and more.
 
-[For More](Wazuh Beginners to Advance.pdf)
+### Install on Docker
+```bash
+sysctl -w vm.max_map_count=262144 # Increase max_map_count on your Docker host
+```
+```bash
+curl -sSL https://get.docker.com/ | sh # Docker installation script
+```
+```bash
+systemctl start docker # Start Docker
+```
+**Download the Docker Compose binary**
+```bash
+curl -L "https://github.com/docker/compose/releases/download/v2.12.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose # Grant execution permissions
+docker-compose --version
+```
+
+**Wazuh Docker deployment** You can deploy Wazuh as a single-node or multi-node stack.
+- Single-node deployment: Deploys one Wazuh manager, indexer, and dashboard node.
+- Multi-node deployment: Deploys two Wazuh manager nodes (one master and one worker), three Wazuh indexer nodes, and a Wazuh dashboard node.
+I've installed it here as a `Single Node`.
+```bash
+git clone https://github.com/wazuh/wazuh-docker.git -b v4.11.0
+```
 
 ## With Regards, `Jakir`
 
