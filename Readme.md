@@ -1,7 +1,9 @@
 ## More About Me – [Take a Look!](http://www.mjakaria.me) 
 
 ### What is Wazuh? 
-Wazuh is an open-source security monitoring platform that provides log analysis, intrusion detection, vulnerability detection, and compliance monitoring. It can monitor your infrastructure for suspicious activity, configuration changes, and more. 
+Wazuh is an open-source security monitoring platform that provides log analysis, intrusion detection, vulnerability detection, and compliance monitoring. It can monitor your infrastructure for suspicious activity, configuration changes, and more.
+
+[For More](Wazuh Beginners to Advance.pdf)
 
 ## With Regards, `Jakir`
 
