@@ -1,0 +1,12 @@
+# code editor/idea
+/.vscode
+/.idea
+
+# build
+/.vs
+/bin
+/obj
+
+# misc
+/.DS_Store
+
