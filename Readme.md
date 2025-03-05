@@ -1,7 +1,7 @@
 ## More About Me – [Take a Look!](http://www.mjakaria.me) 
 
-### Welcome to My Portfolio Website
-Explore my work, skills, and experiences in `Infrastructure Engineer`, `System Administration`, `Cloud Architect (AWS, GCP, Azure)`, `IT Manager`,  `DevOps (Docker, Kubernetes, Terraform, Jenkins, GitHub Actions)`. With a strong background in IT management and software development, I am passionate about automation, cloud computing, and infrastructure management.
+### What is Wazuh? 
+Wazuh is an open-source security monitoring platform that provides log analysis, intrusion detection, vulnerability detection, and compliance monitoring. It can monitor your infrastructure for suspicious activity, configuration changes, and more. 
 
 ## With Regards, `Jakir`
 
